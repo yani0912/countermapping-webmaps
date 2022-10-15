@@ -16,7 +16,14 @@
   		<div class="map-overlay top">
   		<div class="map-overlay-inner">
   		<h2>Public and Affordable Housing Flood Risk</h2>
-    <!-- INSERT TEXT HERE -->
+        The map shows the impact of Hurricane Sandy on New York City public housing projects that they either need to be rebuilt or require substantial renovation in case of future storms.
+        </div>
+
+        Data source:
+        - Sandy Inundation Zone: https://data.cityofnewyork.us/Environment/Sandy-Inundation-Zone/uyj8-7rv5
+        - NYCHA Developments: https://data.cityofnewyork.us/Housing-Development/Map-of-NYCHA-Developments/i9rv-hdr5
+        </div>
+
   		</div>
   		</div>
 
@@ -26,6 +33,7 @@
     const map = new mapboxgl.Map({
         container: 'map', // container id
         style: 'mapbox://styles/yan0912/cl9761fxv000016usr4rp3a0e' 
+        
     });
 
         map.on('load',function(){
