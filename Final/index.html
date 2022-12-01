@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="uft-8" />
+<title>NYC Housing Flood Risk</title>
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+<script src='http://api.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.js'></script>
+<link href='http://api.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.css' rel='stylesheet' />
+<link href='style.css' rel='stylesheet' />
+<link href="http://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"></head>
+<body>
+	<div id="map"></div>
+    <div class="map-overlay top">
+  	<div class="map-overlay-inner">
+  	<h2>Evaluate The Impact of Belt and Road Initiative on Local Communities</h2>
+    The project uses a series of scales of maps that project China’s Belt and Road Initiative (BRI) at four different scales to call for people’s attention to the impact of a massive global infrastructure project on local individuals’ livelihood at the borderland of China, Laos. 
+    <p></p>
+    <p>The four scales include the global scale including seven major economic corridors, the regional scale zooming to the China-Indochina Pennisula Corridor, another closer regional scale zooming in to the border region of the China-Laos-Vietnam region, and finally zooming in to a specific village scale where viewers can see the specific households. At each scale, the viewers should notice what the visible feature is and what the invisible feature is</p>
+
+
+	</div>
+	</div>
+
+    <script>
+    
+    mapboxgl.accessToken = 'pk.eyJ1IjoieWFuMDkxMiIsImEiOiJjbDc3c2RkdG8wMnJwM25tb2ZxcHZwMnB2In0.iFzlA-UUyMTCbOiFQ6EapQ';
+        const map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/yan0912/clb40p3mp000715olqlprapxf', 
+            center: [0, 0],
+            zoom: 0,
+        });
+
+    map.on('load',function(){
+        map.addSource('sandyLayer',{
+            'type':'vector',
+            'url': 'mapbox://yan0912.8ukkoo30' 
+        });
+
+        map.addSource('NYCHALayer',{
+            'type':'vector',
+            'url': 'mapbox://yan0912.cn0lz13w' 
+        });
+
+        map.addLayer({
+            'id':'floodZones',
+            'type':'fill',
+            'source':'sandyLayer',
+            'source-layer':'Sandy_Inundation_Zone-afzr7v',
+            'paint':{
+                'fill-color':'#00158f',
+                'fill-opacity':0.5
+            }
+        }); 
+
+        map.addLayer({
+            'id':'NYCHA',
+            'type':'fill',
+            'source':'NYCHALayer',
+            'source-layer':'Map_of_NYCHA_Developments-264z1g',
+            'paint':{
+                'fill-color':'#FF0000',
+                'fill-opacity':0.5
+            }
+        }); 
+        });
+    </script>
+
+</body>
+
+</html>
