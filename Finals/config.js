@@ -48,7 +48,7 @@ var config = {
             hidden: false,
             title: 'Debt-trap Diplomacy',
             //image: 'images/source.png',
-            description: 'China’s approach to speed up BRI’s progress is by offering loans to politically unstable and less-democratic countries with loose restrictions and much flexibility. When under fiscal crisis, those countries will be in debt with China. Therefore, China can take over land ownership and other rights of use of their local resources and assets naturally without the consent from the local residents, which is called the “Debt-trap Diplomacy”. For example, China handed out short-term loans to Sri Lanka to build a major port at Hambantota when the country was caught in a financial crisis, which allowed China to seize the right of use of this port by the Chinese Navy for ninety-nine years. Some countries can also fall into “debt distress” with China, such as Djibouti’s debt to China amounts to 70% of its GDP. <br> China’s ignoring of proper project management and tolerance of corruption also makes it harder for other loan lenders like World Bank, Asia Development Bank, etc. to interfere with their standardized environmental and social impact assessment.',
+            description: 'China’s approach to speed up BRI’s progress is by offering loans to politically unstable and less-democratic countries with loose restrictions and much flexibility. When under fiscal crisis, those countries will be in debt with China. Therefore, China can take over land ownership and other rights of use of their local resources and assets naturally without the consent from the local residents, which is called the “Debt-trap Diplomacy”. For example, China handed out short-term loans to Sri Lanka to build a major port at Hambantota when the country was caught in a financial crisis, which allowed China to seize the right of use of this port by the Chinese Navy for ninety-nine years. Some countries can also fall into “debt distress” with China, such as Djibouti’s debt to China amounts to 70% of its GDP. <br> China’s ignoring of proper project management and tolerance of corruption also makes it harder for other loan lenders like World Bank, Asia Development Bank, etc. to interfere with their standardized environmental and social impact assessment. <br> <br> The darker the countries are highlighted, the more indebt they are.<br> <br> Data: Total external debt stocks to gross national income',
             location: {
                 center: [50.47340, 20.68241],
                 zoom: 2,
@@ -180,7 +180,7 @@ var config = {
             hidden: false,
             title: 'Ethnic & Culture Diversity Of Countries From CICPEC',
             //image: 'images/source.png',
-            description: 'Indochina Peninsula had a long-established history with well interconnected social and cultural networks. The sophisticated indigenous connections were sometimes unacknowledged and oversimplified by the larger-scale BRI infrastructure connections for a higher efficiency of connecting major cities.',
+            description: 'Indochina Peninsula had a long-established history with well interconnected social and cultural networks. The sophisticated indigenous connections were sometimes unacknowledged and oversimplified by the larger-scale BRI infrastructure connections for a higher efficiency of connecting major cities.<br><br>Each color indicates a different ethnic minority of this region.',
             location: {
                 center: [100.35368, 16.58871],
                 zoom: 4.0,
@@ -228,7 +228,7 @@ var config = {
             hidden: false,
             title: 'Intersection of China And Laos',
             //image: 'images/source.png',
-            description: 'The border region of China and Laos, which was often depicted as “the primitive and remote” hinterland but actually is the intersection of various economic bodies and ethnicities where the culture and knowledge exchange the most. What will happen when the China-Bangkok railway cut straight through this region with their own indigenous connections?',
+            description: 'The border region of China and Laos, which was often depicted as “the primitive and remote” hinterland but actually is the intersection of various economic bodies and ethnicities where the culture and knowledge exchange the most. What will happen when the China-Bangkok railway cut straight through this region with their own indigenous connections? <br><br> Each color on the map indicates a different ethno-linguistic branch.',
             location: {
                 center: [101.31888, 21.33560],
                 zoom: 8.2,
@@ -284,7 +284,7 @@ var config = {
             hidden: false,
             title: "BRI's Impact On Local Employment In China-Laos Borderland",
             //image: 'images/source.png',
-            description: 'One of BRI’s promises to boost local economies is by hiring local villagers for development projects. In some cases, instead of providing local labor force job opportunities, Chinese labor is sent to BRI projects globally, as the map shows that villages with a positive growth of non-farmer employment do not go along with the key BRI infrastructure. Not only may the local residents be excluded from BRI capital flow, but the BRI development projects may kill local entrepreneurship and dispossess the villagers from their own lands.',
+            description: 'One of BRI’s promises to boost local economies is by hiring local villagers for development projects. In some cases, instead of providing local labor force job opportunities, Chinese labor is sent to BRI projects globally, as the map shows that villages with a positive growth of non-farmer employment do not go along with the key BRI infrastructure. Not only may the local residents be excluded from BRI capital flow, but the BRI development projects may kill local entrepreneurship and dispossess the villagers from their own lands. <br><br> Villages highted in red indicate a positive growth of labor working in non-farmer sections, while shades of blue indicaates a decrease. <br><br> Data: Change of Percentage of population with main activity non-farmer section (2009-2019)',
             location: {
                 center: [101.31888, 21.33560],
                 zoom: 8.2,
